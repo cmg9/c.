@@ -1,0 +1,135 @@
+* {
+  background-color: #f2f1f0;
+  font-family: 'Castoro', serif;
+  color: #3a3734;
+}
+
+button {
+  border-radius: 2px;
+}
+
+/*landing port*/
+.entry-port {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 260px;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: #3e352c;
+}
+a:hover {
+  color: #c3c9c0;
+}
+
+/*header and footer*/
+  .navbar {
+    background-color: #c3c9c0;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+  }
+  .hero {
+    background-color:	#c3c9c0;
+  }
+  .navbar-buttons {
+    background-color: #c3c9c0;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+  }
+
+  .footer {
+    background-color: #c3c9c0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+
+ul {
+  list-style: none;
+}
+.dropbtn {
+  background-color: #3a3734;
+  color: #f5f3ef;
+  padding: 6px;
+  font-size: 14px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #c3c9c0;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e352c;}
+
+.title-block {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+  background-color: #c3c9c0;
+  padding: 35px;
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-right: -10px;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  align-items: flex-end;
+  border-right: 2px solid #3e352c;
+}
+
+.nav-links {
+  font-size: 18px;
+  padding: 10px;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+.landing-body {
+  display: flex;
+  justify-content: center;
+  padding: 43px;
+}
+
+.update-box {
+  max-width: 700px;
+  border-bottom: 2px solid #3e352c;
+  padding: 10px;
+}
+
+.about-me-blurb {
+  margin-left: 320px;
+  margin-right: 320px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  text-align: center;
+}
